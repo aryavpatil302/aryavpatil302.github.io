@@ -1,0 +1,22 @@
+Omnea — Client Solutions Engineer Application Note
+---------------------------------------------------
+
+I didn't just read about Omnea before applying — I built it. Over the past few months I've been
+independently replicating your core product: conversational AI intake, a declarative approval
+routing engine with runtime-generated conditional chains, risk scoring, and a role-aware approver
+dashboard. That's what made me apply.
+
+Before my current SWE role, I went through Broadridge's CFP program — 2–3 week sprint cycles
+rotating across Wealth Management, Capital Markets, Asset Management, and Enterprise Risk,
+independently scoping and delivering projects with direct senior stakeholder exposure and a
+leadership presentation at each close. That pace and accountability carried forward: I now act as
+the technical interface between engineering and clients, owning production issues end-to-end and
+translating client requirements into scoped engineering work. That's the job I'm already doing,
+and it maps directly to what a Client Solutions Engineer does.
+
+What I want is to do it somewhere I can be a force multiplier, not one node in a large org —
+operating at every level (customer, product, engineering) where my work is visible and moves fast.
+On tenure: both roles are at the same employer. The CFP year was a structured post-grad rotation
+program designed to last twelve months and feed into a full-time role, which it did. I've been at
+Broadridge ~2 years total. I'm leaving because I've learned what I can learn there, not because
+something went wrong.
