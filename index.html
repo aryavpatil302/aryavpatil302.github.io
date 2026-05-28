@@ -1067,24 +1067,24 @@
           <div class="form-row">
             <div class="form-group">
               <label>First Name *</label>
-              <input type="text" required placeholder="">
+              <input type="text" name="first_name" required placeholder="">
             </div>
             <div class="form-group">
               <label>Last Name *</label>
-              <input type="text" required placeholder="">
+              <input type="text" name="last_name" required placeholder="">
             </div>
           </div>
           <div class="form-group form-full">
             <label>Email *</label>
-            <input type="email" required placeholder="">
+            <input type="email" name="email" required placeholder="">
           </div>
           <div class="form-group form-full" style="margin-top:1.25rem">
             <label>Subject</label>
-            <input type="text" placeholder="">
+            <input type="text" name="subject" placeholder="">
           </div>
           <div class="form-group form-full" style="margin-top:1.25rem">
             <label>Message</label>
-            <textarea rows="4" placeholder=""></textarea>
+            <textarea rows="4" name="message" placeholder=""></textarea>
           </div>
           <div class="form-submit">
             <button type="submit" class="btn btn-fill">Send</button>
@@ -1124,10 +1124,18 @@
     sections.forEach(s => observer.observe(s));
 
     /* ── Contact form ─────────────────────────────────────────────────────── */
-    function handleContact(e) {
+    async function handleContact(e) {
       e.preventDefault();
-      document.getElementById('contact-success').style.display = 'block';
-      e.target.reset();
+      const form = e.target;
+      const res = await fetch('https://formspree.io/f/xwvzybjj', {
+        method: 'POST',
+        body: new FormData(form),
+        headers: { 'Accept': 'application/json' }
+      });
+      if (res.ok) {
+        document.getElementById('contact-success').style.display = 'block';
+        form.reset();
+      }
     }
   </script>
 </body>
