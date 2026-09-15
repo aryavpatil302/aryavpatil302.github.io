@@ -797,8 +797,9 @@
           I'm Arya, a game designer and software engineer. TFT has been part of my life since launch, from
           racing friends to Emerald late into the night to chatting with my brother on car rides inventing our
           own units and traits for whatever game had our attention that summer. That passion eventually led me
-          to design and ship PokeFight, an original Pokémon-themed auto-battler, solo, end to end — every unit,
-          trait, and combat system hand-built and balanced against real player data.</p>
+          to design and ship PokeFight, an original Pokémon-themed autobattler, solo, end to end — a team
+          composition system spanning dozens of unit archetypes, with every ability and combat animation
+          hand-built and balanced against real player data.</p>
         <br>
         <p class="about-bio">
           My day job as a software engineer sharpens the same instinct from the other side of the table:
@@ -826,24 +827,25 @@
         <a href="Final_Arya_Patil_Resume.pdf" class="btn btn-fill" target="_blank">Download CV</a>
       </div>
 
-      <!-- Broadridge — Associate SWE -->
+      <!-- Broadridge — SWE -->
       <div class="exp-card">
         <div class="exp-meta">
           <div>
             <div class="exp-date">July 2025 – Present</div>
             <div class="exp-company">Broadridge</div>
-            <div class="exp-role">Software Engineer</div>
+            <div class="exp-role">Software Engineer, Tax Servicing &amp; AI Innovations</div>
           </div>
           <div class="exp-loc">Newark, NJ</div>
         </div>
         <ul class="exp-bullets">
-          <li>Act as first-line technical owner for production client issues, including diagnosing an off-hours data
-            misalignment in a client-facing XML pipeline by tracing through large tax datasets and deploying a fix with
-            proper escalation.</li>
-          <li>Author product tickets and user stories to translate regulatory compliance requirements into scoped
-            engineering work, coordinating directly between client delivery timelines and engineering capacity.</li>
-          <li>Contribute to full-stack development of an enterprise tax processing platform (Java, HTML/CSS, XML),
-            delivering Canadian tax form compliance updates aligned with evolving regulatory schemas.</li>
+          <li>Develop full-stack Canadian tax-form compliance features across Java, SQL, and XML on an enterprise
+            tax-processing platform, delivering updates for multiple client accounts in parallel to meet fixed
+            tax-year-end filing and testing deadlines.</li>
+          <li>Diagnose off-hours production data misalignments in client-facing pipelines by tracing WebSphere
+            application logs and underlying SQL data flows, then deploy verified fixes through the team's Jenkins
+            pipeline with proper escalation ahead of the next business day.</li>
+          <li>Translate client-specific regulatory requirements into scoped user stories during sprint planning and
+            development sessions, coordinating delivery across product, QA, and client-delivery teams.</li>
         </ul>
       </div>
 
@@ -853,37 +855,47 @@
           <div>
             <div class="exp-date">July 2024 – July 2025</div>
             <div class="exp-company">Broadridge</div>
-            <div class="exp-role">Career Foundations Program Trainee, Technology Track</div>
+            <div class="exp-role">Career Foundations Program, Technology Track</div>
           </div>
           <div class="exp-loc">Newark, NJ</div>
         </div>
         <ul class="exp-bullets">
-          <li>Rotated across business units spanning Wealth Management, Capital Markets, Asset Management, and Enterprise Risk on a 2–3 week sprint cycle, independently scoping and delivering projects for senior stakeholders, presenting findings to leadership at each rotation close.</li>
-          <li>Investigated Asset Management support ticket patterns by interviewing developers and client
-            support reps to identify root causes; produced a remediation roadmap targeting a 25% reduction in inbound
-            support volume, recommending an Einstein GPT knowledge article system and an embedded AI chatbot for in-app
-            client self-service.</li>
-          <li>Built a composite benchmark tool in Python (Pandas, Yahoo Finance API) that decomposed mutual fund
-            holdings by security percentage and applied them to index daily and cumulative returns, then integrated the
-            output into a web application used by wealth advisors to visualize portfolio performance.</li>
+          <li>Scoped and delivered independent, stakeholder-facing projects across multiple business units —
+            including Wealth Management, Capital Markets, Asset Management, and Enterprise Risk — on compressed
+            two- to three-week cycles, presenting completed solutions directly to senior leadership at each close.</li>
+          <li>Investigated recurring support-ticket patterns through interviews with developers and client support
+            representatives, then proposed an AI knowledge-base and embedded chatbot roadmap projected to reduce
+            inbound support volume by 25%.</li>
+          <li>Built a Python benchmarking tool with Pandas and the Yahoo Finance API to decompose mutual fund
+            holdings by security weighting and map them against index returns, integrating the output into a web
+            application wealth advisors used to evaluate portfolio performance.</li>
         </ul>
       </div>
 
       <div style="height:.5rem"></div>
-      <div class="resume-sub-title">Relevant Projects</div>
+      <div class="resume-sub-title">Key Projects</div>
 
       <div class="exp-proj-card">
 
         <div class="exp-meta">
           <div>
-            <div class="exp-date">June 2026 – Present</div>
-            <div class="exp-company">PokeFight — Original Pokémon Auto-Battler</div>
+            <div class="exp-date">Jan 2026 – Present</div>
+            <div class="exp-company">Personal Project — PokeFight, an original Pokémon-themed autobattler</div>
           </div>
         </div>
         <ul class="exp-bullets">
-          <li>Designed and shipped an original Teamfight Tactics-style auto-battler solo, end to end, live at pokefight.org — a habitat-based composition system spanning 77 units and 28 traits, with every ability and combat animation hand-built and tuned against real player reactions.</li>
-          <li>Built a balance pipeline that turns thousands of simulated matches into structured statistical reports paired with an AI-generated player-discussion layer grounded in that same match data, connecting numeric win-rate signals to how a change actually feels to play.</li>
-          <li>Maintained a public devlog documenting design decisions end to end, from unit and trait concepting through combat-system tuning and balance iteration.</li>
+          <li>Designed and shipped a complete autobattler solo, from initial concept through a playable live
+            product, establishing an original team-composition system spanning dozens of unit archetypes and
+            cross-unit synergies.</li>
+          <li>Ideated and implemented every unit ability and combat animation, translating source material into
+            readable moment-to-moment gameplay and tweaking visual feedback through direct player testing to
+            sharpen combat clarity.</li>
+          <li>Engineered adaptive AI opponents through iterative optimization, replacing static difficulty scaling
+            with agents that independently discover effective strategies across thousands of simulated matches.</li>
+          <li>Balanced units and systems by combining personal playtesting, structured player feedback, and
+            agentic simulation data, building a pipeline that turns match data into balance reports and
+            AI-generated player discussion to surface sentiment trends alongside win rates. Live now at
+            pokefight.org, with a full devlog of the process.</li>
         </ul>
         <div class="exp-proj-tags">
           <span class="exp-proj-tag">TypeScript</span>
@@ -897,27 +909,46 @@
 
         <div class="exp-meta">
           <div>
-            <div class="exp-date">July 2025 – Present</div>
-            <div class="exp-company">AI-Powered Developer Productivity VS Code Extension</div>
+            <div class="exp-date">June 2026 – Present</div>
+            <div class="exp-company">MIPS Optimization Agent</div>
             <div class="exp-role">Broadridge</div>
           </div>
         </div>
         <ul class="exp-bullets">
-          <li>Owned development and support of agentic AI orchestration workflows that automated cross-codebase test
-            case generation, partnering directly with users to prioritize functionality upgrades, troubleshoot workflow
-            issues, and continuously refine agent behavior through rapid feedback and iteration cycles.</li>
-          <li>Developed a mainframe connectivity agent that parses legacy code, generates Java equivalents and
-            plain-language explanations, reducing the bottleneck on specialized expertise during active migration work.
-          </li>
-          <li>Integrated MCP server connectivity with Jira and Confluence for automated ticket review, requirement
-            synchronization, and documentation retrieval within the development environment.</li>
+          <li>Recognized an opportunity to apply AI reasoning to a purely manual mainframe cost-optimization
+            process, evaluating it against simpler rule-based alternatives before selecting an agent-based
+            approach best suited to open-ended exploration.</li>
+          <li>Orchestrated an AI agent workflow, built on Anthropic's Model Context Protocol, that runs guided
+            mainframe job-control searches to identify the highest-cost programs and recommend fixes, translating
+            each recommendation into direct cost savings of roughly $1,800 per 100 MIPS reduced.</li>
         </ul>
         <div class="exp-proj-tags">
-          <span class="exp-proj-tag">TypeScript</span>
-          <span class="exp-proj-tag">VS Code API</span>
           <span class="exp-proj-tag">MCP</span>
           <span class="exp-proj-tag">Agentic AI</span>
+          <span class="exp-proj-tag">Mainframe</span>
+        </div>
+      </div>
+
+      <div class="exp-proj-card">
+
+        <div class="exp-meta">
+          <div>
+            <div class="exp-date">July 2026 – Present</div>
+            <div class="exp-company">COBOL-to-Java Migration Agent</div>
+            <div class="exp-role">Broadridge</div>
+          </div>
+        </div>
+        <ul class="exp-bullets">
+          <li>Partnered with engineering leads to weigh migration approaches against a fixed two-month cloud
+            deadline, then proposed agent-assisted translation to meet the accelerated timeline.</li>
+          <li>Led an AI-assisted migration pipeline, orchestrated through Model Context Protocol tooling, that
+            translated legacy COBOL tax-calculation programs into Java, applying test-driven development to
+            confirm zero behavioral regressions between the original and translated systems.</li>
+        </ul>
+        <div class="exp-proj-tags">
+          <span class="exp-proj-tag">MCP</span>
           <span class="exp-proj-tag">Java</span>
+          <span class="exp-proj-tag">COBOL</span>
         </div>
       </div>
 
@@ -931,16 +962,19 @@
           </div>
         </div>
         <ul class="exp-bullets">
-          <li>Drove the full product lifecycle from initial stakeholder interviews and problem scoping through architecture design, full-stack development, and iterative live deployment, continuously refining requirements and authoring BRDs as new needs surfaced.</li>
-          <li>Built a Power BI dashboard tracking RAG status, burn rate, and forecasted cost across an onboarding portfolio in parallel with an AI chatbot (Python/Flask, React), generating natural-language insights for leadership review.</li>
-          <li>Developed an AI-assisted automated PowerPoint generator that pulled live portfolio data to produce slide decks with insights across key metrics including burn rate, RAG status, and cost forecasting, reducing manual preparation for leadership review meetings.</li>
+          <li>Identified that leadership review meetings relied on stale, manually assembled portfolio data with no
+            centralized alerting signal, then scoped a three-part AI reporting initiative spanning dashboarding,
+            conversational insight, and automated document generation.</li>
+          <li>Delivered a Power BI alert dashboard, a natural-language AI chatbot built end-to-end with a
+            Python/Flask backend and a React front end, and an automated PowerPoint generator that assembled
+            quarterly leadership decks directly from portfolio data, cutting manual reporting preparation from
+            days to hours.</li>
         </ul>
         <div class="exp-proj-tags">
           <span class="exp-proj-tag">Python</span>
           <span class="exp-proj-tag">Flask</span>
           <span class="exp-proj-tag">React</span>
           <span class="exp-proj-tag">Power BI</span>
-          <span class="exp-proj-tag">LLM</span>
         </div>
       </div>
 
@@ -957,8 +991,25 @@
           <div class="exp-loc">Ann Arbor, MI</div>
         </div>
         <p style="font-size:.86rem;color:var(--mid);margin-top:.5rem">
-          Relevant Coursework: Data Structures &amp; Algorithms, Web Systems, Machine Learning, Human-Centered Software
-          Development
+          Relevant Coursework: Human-Centered Software Development, Machine Learning, Data Structures &amp;
+          Algorithms, Web Systems
+        </p>
+      </div>
+
+      <div style="height:.5rem"></div>
+      <div class="resume-sub-title">Skills</div>
+
+      <div class="exp-card">
+        <p style="font-size:.86rem;color:var(--mid);margin-bottom:.5rem">
+          <b style="color:var(--dark)">Programming:</b> Python, Java, SQL, TypeScript/JavaScript, C++, C#, HTML/CSS
+        </p>
+        <p style="font-size:.86rem;color:var(--mid);margin-bottom:.5rem">
+          <b style="color:var(--dark)">Design &amp; Analysis:</b> Systems Design, Rapid Prototyping, Data-Driven
+          Balancing, Playtesting &amp; User Research, UX/UI Design, Technical Writing
+        </p>
+        <p style="font-size:.86rem;color:var(--mid)">
+          <b style="color:var(--dark)">Tools &amp; Platforms:</b> AWS, WebSphere, Jenkins, PartyKit/Cloudflare,
+          Power BI, Git, Jira, Confluence, Agile/Scrum
         </p>
       </div>
     </div>
@@ -987,14 +1038,15 @@
               style="display:inline-block;width:4px;height:1.25rem;background:var(--blue);margin-right:.6rem;border-radius:1px"></span>
             PokeFight
           </div>
-          <div class="proj-role">Original Pokémon Auto-Battler &nbsp;·&nbsp; June 2026 – Present</div>
+          <div class="proj-role">Original Pokémon Autobattler &nbsp;·&nbsp; Jan 2026 – Present</div>
           <p class="proj-desc">
-            An original Teamfight Tactics-style auto-battler set in the Pokémon world, designed and shipped
-            solo end to end. A habitat-based composition system spans 77 units and 28 traits, with every
-            ability and combat animation hand-built and tuned against real player reactions. A balance
-            pipeline turns thousands of simulated matches into structured reports alongside an AI-generated
-            player-discussion layer grounded in that same match data — connecting win-rate signals to how a
-            change actually feels to play. Live now, with a full devlog of the design process.
+            An original Teamfight Tactics-style autobattler set in the Pokémon world, designed and shipped
+            solo end to end — a team composition system spanning dozens of unit archetypes and cross-unit
+            synergies, with every ability and combat animation hand-built and tuned against real player
+            reactions. Adaptive AI opponents replace static difficulty scaling, discovering effective
+            strategies across thousands of simulated matches. A balance pipeline combines personal
+            playtesting, structured player feedback, and that simulation data into balance reports and
+            AI-generated player discussion. Live now, with a full devlog of the design process.
           </p>
           <div class="proj-tags">
             <span class="proj-tag">TypeScript</span>
@@ -1133,7 +1185,7 @@
   <footer>
     <p>© 2026 Arya Patil &nbsp;·&nbsp;
       <a href="mailto:aryavpatil.302@gmail.com">aryavpatil.302@gmail.com</a> &nbsp;·&nbsp;
-      Jersey City, NJ
+      Brooklyn, NY
     </p>
   </footer>
 
